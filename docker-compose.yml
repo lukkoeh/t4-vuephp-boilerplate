@@ -1,7 +1,7 @@
 version: "1.0"
 services:
     php:
-      build: ./php/
+      build: ./php-part/
       container_name: t4app-php.docker
       volumes:
         - ./php:/var/www/html
